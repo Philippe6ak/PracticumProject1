@@ -203,13 +203,12 @@
     font-size: 20px;
     font-weight: 200;
     text-decoration: underline;
-    margin: 30px auto 0 40px;
+    margin: 20px auto 0 40px;
 }
 /* about section */
 
 .about {
     display: grid;
-    width: 100%;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr auto;
     align-items: center;
@@ -244,6 +243,7 @@
 .about__text {
     font-size: 20px;
     word-wrap: break-word;
+    font-weight: 400;
 }
 
 .about__column-title {
@@ -265,7 +265,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 185px;
     justify-content: space-between;
-    margin : 180px 26px 88px;
+    margin : 180px 50px 88px;
 }
 
 .footer .contacts {
